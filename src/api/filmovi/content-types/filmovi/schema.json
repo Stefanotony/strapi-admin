@@ -1,0 +1,77 @@
+{
+  "kind": "collectionType",
+  "collectionName": "filmovis",
+  "info": {
+    "singularName": "filmovi",
+    "pluralName": "filmovis",
+    "displayName": "Filmovi",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "naziv": {
+      "type": "string"
+    },
+    "godina": {
+      "type": "integer"
+    },
+    "zanr": {
+      "type": "blocks"
+    },
+    "opis": {
+      "type": "text"
+    },
+    "kratkiOpis": {
+      "type": "string"
+    },
+    "posterImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "carouselImg": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "datumPocetka": {
+      "type": "date"
+    },
+    "datumZavrsetka": {
+      "type": "date"
+    },
+    "glumci": {
+      "type": "json"
+    },
+    "rezija": {
+      "type": "json"
+    },
+    "scenario": {
+      "type": "json"
+    },
+    "trejlerUrl": {
+      "type": "string"
+    },
+    "ostalo": {
+      "type": "json"
+    },
+    "status": {
+      "type": "integer",
+      "max": 1,
+      "min": 0
+    }
+  }
+}

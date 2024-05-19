@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "kontakt_formas",
+  "info": {
+    "singularName": "kontakt-forma",
+    "pluralName": "kontakt-formas",
+    "displayName": "Kontakt Forma"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "ime": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "poruka": {
+      "type": "text"
+    },
+    "poslato": {
+      "type": "date"
+    }
+  }
+}
